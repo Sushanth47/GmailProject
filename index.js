@@ -9,6 +9,9 @@ const nodemailer = require('nodemailer')
 
 
 const oauth2Client = new OAuth2(
+  //you can change these values by creating project on your own gmail and
+  // generate credentials using create credentials in credentials
+  // table and setting them to OAuth2.0
   "294798513911-1rmb05f8vhntaokhbg8f5d3cepv8njl4.apps.googleusercontent.com",
   "pK40_Lyqp8Sgz9D9Rvc3-A0G",
   "https://developers.google.com/oauthplayground"
